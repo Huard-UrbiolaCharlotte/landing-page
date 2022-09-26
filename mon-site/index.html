@@ -1,0 +1,104 @@
+<!DOCTYPE html><!--le code sera en HTML/CSS-->
+<html lang="fr">
+<head><!--elle sera as vsible par l'utilisateur, toutes les parties head-->
+    <meta charset="UTF-8"><!--permet de dire au navigateur qu'on est en Europe et de trouver les caractères spéciaux selon le pay où on se trouve-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--résumé sur le site-->
+    <title>test</title><!--elle affiche le titre dans l'onglet du navigateur-->
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--à mettre à chaque fois sur nouveau html pour relier mon css à mon html-->
+</head><!--le "/" veut dire que c'est la fin de la balise head en haut-->
+
+<body><!--ce que va voir l'utilisateur sur la page web-->
+    <nav>
+        <h4> <!--liste non ordonnée--></h4>
+        <ul class="test1"> <!--liste non organisé-->
+            <li class="nav.item"><a href="#">Accueil</a></li>
+            <li class="nav.item"><a href="#">Store</a></li>
+            <li class="nav.item"><a href="#">Mac</a></li>
+            <li class="nav.item"><a href="#">Ipad</a></li>
+            <li class="nav.item"><a href="#">Iphone</a></li>
+            <li class="nav.item"><a href="#">Watch</a></li>
+            <li class="nav.item"><a href="#">AirPods</a></li>
+            <li class="nav.item"><a href="#">TV & Maison</Main></a></li>
+            <li class="nav.item"><a href="#">Exclusivité Apple</a></li>
+            <li class="nav.item"><a href="#">Accessoires</a></li>
+            <li class="nav.item"><a href="#">Assistance</a></li>
+            <li class="nav.item"><a href="#">Recherche</a></li>
+            <li class="nav.item"><a href="#">Mon Panier</a></li>
+        </ul>
+    </nav>
+    </html>
+
+  <header><!-- en tête: menu, barre de recherche, logo-->
+    <h1><!--afficher le texte pour l'utilisateur(balise titre,le plus souvent le nom de l'entreprise)-->
+      Apple
+    </h1><!--seule balise avec un chiffre elle va jusqu'à h6 inclus-->
+        <nav><!--navigation sur le site, conteneur qui va contenir tous les liens de navigation-->
+        <a href=""><!-- mettre l'URL entre les "",tout ce qui se trouve à l'intérieur < > fait partie de la balise,c'est un attribut--> </a>
+        </nav>
+   
+  </header>  
+<main><!--corps de page--> 
+    <section> <!--le conteneur section attend forcement un titre h2, dans l'article aussi c'est h2, la div (c'est les 3 plus impotants corps de page)-->        
+        <h2> AIR TAG</h2>
+        <p></p> <!--paragraphe-->
+    </section> 
+    <div id="imageaccueil"><!--section sans titre-->
+        <img src="apple-airtag.jpeg" alt="" id="image1"><!--balise auto fermante, elle n'a pas de fermeture, l'attribut alt sert à décrire l'image si jamais elle n'est pas accessible "OBLIGATOIRE"-->
+    </div>
+<section id="jouons">
+    <h2 id="css"> Perdez l’habitude de tout perdre ! </h2>
+
+    <h3 id="description1">L’AirTag est l’accessoire tout trouvé pour tout retrouver. Accrochez-en un à vos clés, glissez-en un autre dans votre sac, et n’y pensez plus. Grâce aux AirTags, vous pouvez facilement repérer vos objets dans l’app Localiser, qui vous permet aussi de détecter vos appareils Apple et de ne pas les perdre de vue.<span class="blue"></span></h3>
+    <p class="grey arial" id="description2"> À partir de 39 €</p>
+
+    <div id="test1">
+        <img src="apple-airtag-zoeken.jpeg" alt="airtag" id="image2">
+        <p id="descriptionproduit">
+            Paniquez pas !
+            Un son et c'est trouvé. 
+            Rendez-vous dans le nouvel onglet Objets de l’app Localiser et faites sonner l’AirTag correspondant – ou dites « Dis Siri, où est mon portefeuille ? ». Le haut-parleur intégré de l’AirTag fait alors retentir un bip,  vous avertir de sa présence.
+            S’il se cache à proximité, sous un coussin ou dans la pièce voisine, vous n’avez plus qu’à vous laisser guider par le son.
+        </p>
+        <p id="sautdeligne">                 
+
+        </p>
+    </div>
+
+   <div id="test2">
+    <img src="Apple_AirTag2.jpeg" alt="" id="image3">
+    <p id="comment">
+        Comment ça fonctionne ?
+        Votre AirTag émet un signal Bluetooth sécurisé détectable par les appareils du réseau Localiser se trouvant à proximité. 
+        Ces appareils envoient les informations de localisation de votre AirTag sur iCloud. 
+        Vous pouvez alors aller dans l’app Localiser et le visualiser sur une carte. 
+        L’anonymat est préservé tout au long du processus et les données sont chiffrées pour ne pas porter atteinte à votre vie privée. 
+        Et comme ce système est très économe en énergie et en données, aucune inquiétude à avoir non plus de ce côté-là.
+    </p>
+   </div>
+
+   <div id="test4">
+    <img src="iphoairtag.jpeg" alt="applewatch" id="image4">
+    <p id="perdu">
+     Avec le mode Perdu, retrouver quelque chose est encore plus facile.
+     Comme sur tous vos autres appareils Apple, le mode Perdu peut être activé sur un AirTag. 
+     S’il est détecté par un appareil du réseau, vous recevez automatiquement une notification.
+     Vous pouvez aussi le paramétrer pour que vos coordonnées soient envoyées à la personne qui trouverait votre AirTag et le mettrait en contact avec un smartphone doté de la technologie NFC – cette même technologie qui permet de payer des achats avec un téléphone.
+    </p>
+   </div>
+
+
+</section>
+</main>
+<hr>
+<footer id="apple1"><!--on peut mettre ce qu'on veut, c'est le pied de page-->Vous pouvez aussi faire vos achats dans un Apple Store ou chez un revendeur.
+     <p id="apple2"> France</p> 
+     <p id="apple3">Copyright © 2022 Apple Inc.</p>  
+</footer>
+
+
+</body><!--c'est la fin de la balise body, rien pas de code sous la balise, FIN-->
+</html><!--jamias de code en dessous de body et html-->
